@@ -1,7 +1,7 @@
 ArduFrauenfelder
 =============================
 Copyright 2011 Design Tech Industries (DTI)  
-DTI site:  <www.mirrorshades.gs/DTI>  
+DTI site:  www.mirrorshades.gs/DTI  
 DTI email: <admin@mirrorshades.gs>  
 
 The ArduFrauenfelder is an Arduino compatible custom board with 
@@ -12,7 +12,7 @@ Features:
  * ATmega328 MCU
  * SparkFun EasyDriver v4.4
  * Power LED & Reset switch
- * Populated pins for USB-to-TTL board
+ * Populated pins for FTDI breakout board
  * Mounting holes
 
 You can view more at the ArduFrauenfelder page:
