@@ -55,7 +55,7 @@ Wire Wire Line
 Wire Wire Line
 	5100 3250 2950 3250
 Wire Wire Line
-	13900 800  5100 800 
+	13900 800  5100 800
 Wire Wire Line
 	13900 800  13900 2200
 Wire Wire Line
@@ -172,7 +172,7 @@ Wire Wire Line
 Wire Wire Line
 	1250 1100 1950 1100
 Wire Wire Line
-	1950 600  1400 600 
+	1950 600  1400 600
 Wire Wire Line
 	1400 600  1400 1600
 Wire Wire Line
@@ -353,7 +353,7 @@ F 0 "JP10" H 4400 10330 50  0000 L BNN
 F 1 "M06LOCK" H 4400 9500 50  0000 L BNN
 F 2 "SparkFun-1X06_LOCK" H 4600 10050 50  0001 C CNN
 	1    4600 9900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 NoConn ~ 3200 4100
 NoConn ~ 3200 3800
@@ -375,7 +375,7 @@ P 6400 4450
 F 0 "C6" H 6450 4550 50  0000 L CNN
 F 1 "C" H 6450 4350 50  0000 L CNN
 	1    6400 4450
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L C C5
@@ -384,7 +384,7 @@ P 6400 3850
 F 0 "C5" H 6450 3950 50  0000 L CNN
 F 1 "C" H 6450 3750 50  0000 L CNN
 	1    6400 3850
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 NoConn ~ 5100 3500
 $Comp
@@ -395,7 +395,7 @@ F 0 "J1" H 10150 2000 50  0000 C CNN
 F 1 "POWER_JACKPTH" H 10150 1600 50  0000 C CNN
 F 2 "SparkFun-POWER_JACK_PTH" H 10150 1750 50  0001 C CNN
 	1    10150 1600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L POWER_JACKPTH J2
@@ -405,7 +405,7 @@ F 0 "J2" H 14400 10250 50  0000 C CNN
 F 1 "POWER_JACKPTH" H 14400 9850 50  0000 C CNN
 F 2 "SparkFun-POWER_JACK_PTH" H 14400 10000 50  0001 C CNN
 	1    14400 9850
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text Notes 11500 8550 0    60   ~ 0
 X Axis
@@ -421,20 +421,20 @@ F 0 "JP2" H 10750 9780 50  0000 L BNN
 F 1 "M03PTH" H 10750 9250 50  0000 L BNN
 F 2 "SparkFun-1X03" H 10850 9700 50  0001 C CNN
 	1    10850 9550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M02PTH JP?
 U 1 1 4DCFBD32
 P 11900 9450
-AR Path="/4DCFBB53" Ref="JP?"  Part="1" 
-AR Path="/4DCFBC2E" Ref="JP?"  Part="1" 
-AR Path="/4DCFBD32" Ref="JP3"  Part="1" 
+AR Path="/4DCFBB53" Ref="JP?"  Part="1"
+AR Path="/4DCFBC2E" Ref="JP?"  Part="1"
+AR Path="/4DCFBD32" Ref="JP3"  Part="1"
 F 0 "JP3" H 11800 9680 50  0000 L BNN
 F 1 "M02PTH" H 11800 9250 50  0000 L BNN
 F 2 "SparkFun-1X02" H 11900 9600 50  0001 C CNN
 	1    11900 9450
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L M02PTH JP1
@@ -444,7 +444,7 @@ F 0 "JP1" H 10750 9080 50  0000 L BNN
 F 1 "M02PTH" H 10750 8650 50  0000 L BNN
 F 2 "SparkFun-1X02" H 10850 9000 50  0001 C CNN
 	1    10850 8850
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M03PTH JP5
@@ -454,20 +454,20 @@ F 0 "JP5" H 12200 8230 50  0000 L BNN
 F 1 "M03PTH" H 12200 7700 50  0000 L BNN
 F 2 "SparkFun-1X03" H 12300 8150 50  0001 C CNN
 	1    12300 8000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M02PTH JP?
 U 1 1 4DCFBD25
 P 13350 7900
-AR Path="/4DCFBB53" Ref="JP?"  Part="1" 
-AR Path="/4DCFBC2E" Ref="JP?"  Part="1" 
-AR Path="/4DCFBD25" Ref="JP6"  Part="1" 
+AR Path="/4DCFBB53" Ref="JP?"  Part="1"
+AR Path="/4DCFBC2E" Ref="JP?"  Part="1"
+AR Path="/4DCFBD25" Ref="JP6"  Part="1"
 F 0 "JP6" H 13250 8130 50  0000 L BNN
 F 1 "M02PTH" H 13250 7700 50  0000 L BNN
 F 2 "SparkFun-1X02" H 13350 8050 50  0001 C CNN
 	1    13350 7900
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L M02PTH JP4
@@ -477,7 +477,7 @@ F 0 "JP4" H 12200 7530 50  0000 L BNN
 F 1 "M02PTH" H 12200 7100 50  0000 L BNN
 F 2 "SparkFun-1X02" H 12300 7450 50  0001 C CNN
 	1    12300 7300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M03PTH JP8
@@ -487,19 +487,19 @@ F 0 "JP8" H 13750 6080 50  0000 L BNN
 F 1 "M03PTH" H 13750 5550 50  0000 L BNN
 F 2 "SparkFun-1X03" H 13850 6000 50  0001 C CNN
 	1    13850 5850
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L M02PTH JP?
 U 1 1 4DCFBC2E
 P 14900 5750
-AR Path="/4DCFBB53" Ref="JP?"  Part="1" 
-AR Path="/4DCFBC2E" Ref="JP9"  Part="1" 
+AR Path="/4DCFBB53" Ref="JP?"  Part="1"
+AR Path="/4DCFBC2E" Ref="JP9"  Part="1"
 F 0 "JP9" H 14800 5980 50  0000 L BNN
 F 1 "M02PTH" H 14800 5550 50  0000 L BNN
 F 2 "SparkFun-1X02" H 14900 5900 50  0001 C CNN
 	1    14900 5750
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L M02PTH JP7
@@ -509,7 +509,7 @@ F 0 "JP7" H 13750 5380 50  0000 L BNN
 F 1 "M02PTH" H 13750 4950 50  0000 L BNN
 F 2 "SparkFun-1X02" H 13850 5300 50  0001 C CNN
 	1    13850 5150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L V_REG_78XXSINK U1
@@ -519,7 +519,7 @@ F 0 "U1" H 12050 2500 50  0000 L BNN
 F 1 "V_REG_78XXSINK" H 12200 2050 50  0000 L BNN
 F 2 "SparkFun-TO220-IGO" H 12100 2600 50  0001 C CNN
 	1    12100 2350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L TAC_SWITCHPTH S1
@@ -529,7 +529,7 @@ F 0 "S1" H 2800 1850 50  0000 L BNN
 F 1 "TAC_SWITCHPTH" H 2800 1350 50  0000 L BNN
 F 2 "SparkFun-TACTILE-PTH" H 3100 1300 50  0001 C CNN
 	1    2900 1600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L CRYSTAL X1
@@ -538,7 +538,7 @@ P 5850 4150
 F 0 "X1" H 5850 4300 60  0000 C CNN
 F 1 "CRYSTAL" H 5850 4000 60  0000 C CNN
 	1    5850 4150
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L LED D1
@@ -546,8 +546,8 @@ U 1 1 4DCFAB8A
 P 1950 800
 F 0 "D1" H 1950 900 50  0000 C CNN
 F 1 "LED" H 1950 700 50  0000 C CNN
-	1    1950 800 
-	0    1    1    0   
+	1    1950 800
+	0    1    1    0
 $EndComp
 $Comp
 L ATMEGA328-P IC1
@@ -557,7 +557,7 @@ F 0 "IC1" H 3400 5850 50  0000 L BNN
 F 1 "ATMEGA328-P" H 4350 3200 50  0000 L BNN
 F 2 "DIL28" H 3500 3250 50  0001 C CNN
 	1    4100 4600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L CP1 C4
@@ -566,7 +566,7 @@ P 13150 2400
 F 0 "C4" H 13200 2500 50  0000 L CNN
 F 1 "CP1" H 13200 2300 50  0000 L CNN
 	1    13150 2400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L CP1 C3
@@ -575,7 +575,7 @@ P 11300 2350
 F 0 "C3" H 11350 2450 50  0000 L CNN
 F 1 "CP1" H 11350 2250 50  0000 L CNN
 	1    11300 2350
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L R R2
@@ -584,7 +584,7 @@ P 1000 1500
 F 0 "R2" V 1080 1500 50  0000 C CNN
 F 1 "R" V 1000 1500 50  0000 C CNN
 	1    1000 1500
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L R R1
@@ -593,6 +593,6 @@ P 1000 1100
 F 0 "R1" V 1080 1100 50  0000 C CNN
 F 1 "R" V 1000 1100 50  0000 C CNN
 	1    1000 1100
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $EndSCHEMATC
